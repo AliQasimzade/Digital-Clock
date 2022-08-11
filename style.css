@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("./raimond-klavins-fUCA6V1mFxc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.digital-clock-container{
+    display: flex;
+    justify-content: center;
+    margin-right: 4px;
+    margin-left: 4px;
+    width: 400px;
+}
+
+.hour-container, .minute-container, .second-container{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+.text, span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: #fff;
+}
+.text{
+    background-color: darkblue;
+}
+span{
+    font-size: 30px;
+     height: 100%;
+}
